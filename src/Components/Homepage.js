@@ -10,7 +10,7 @@ const Homepage = ({buttonstate, callback, children}) => {
               <>
             { buttonstate &&
                 <div>
-                    This iss a homepage with state
+                    This iss a homepage with state DEV2!
                     {children}
                 </div>
             } 
