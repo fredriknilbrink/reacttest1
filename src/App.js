@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
-import Homepage from './Homepage'
+import { Redirect, Route, Switch} from 'react-router-dom';
+import Homepage from './Components/Homepage'
 
 const App = () => {
 
@@ -11,7 +12,13 @@ const App = () => {
 
   }
   return (
-    <Homepage buttonstate={buttonState} callback={handleButtonPress} />
+
+    
+    <main>
+      <Homepage buttonstate={buttonState} callback={handleButtonPress} />
+    </main>
+    
+    
   );
 }
 
