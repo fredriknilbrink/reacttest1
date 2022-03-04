@@ -1,16 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from "styled-components";
+
 
 const Button = styled.button`
     color: blue;
 `;
 
+
 const Homepage = ({buttonstate, callback, children}) => {
+
+   
+
+
     return (
               <>
             { buttonstate &&
                 <div>
-                    This iss a homepage with state
+                    This iss a homepage with state DEV2!
                     {children}
                 </div>
             } 
